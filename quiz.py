@@ -5,4 +5,4 @@ def allsubstrings(name_str):
     for i in name_str:
         letter.append(i)
         ascii.append(ord(i))
-        return 
+        return name_str
