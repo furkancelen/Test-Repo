@@ -37,13 +37,13 @@ while run:
         if event.type == pygame.QUIT:
             run = False
     
-    # win.blit(bg,(i, 0))
-    # win.blit(bg, (width + i,0))
+    win.blit(bg,(i, 0))
+    win.blit(bg, (width + i,0))
 
-    # if i == -width:
-    #     win.blit(bg, (width + i, 0))
-    #     i = 0
-    # i -= 1
+    if i == -width:
+        win.blit(bg, (width + i, 0))
+        i = 0
+    i -= 1
 
 
     #Movement
